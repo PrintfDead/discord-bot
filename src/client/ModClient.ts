@@ -27,6 +27,8 @@ export class BotClient extends Client {
         Handler.SlashLoad();
         Handler.SlashAdd(this);
         Handler.EventLoad(this);
+
+        this.login("OTU5Njg3MjM3NzIzODg1NTgw.YkfgYw.Sx8Nv-D1Ig9rlHv2DKttCNgJWGU");
     }
 }
 

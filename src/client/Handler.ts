@@ -22,7 +22,7 @@ export class Handler {
             }
         }
 
-        const rest = new REST({ version: "9" }).setToken("")
+        const rest = new REST({ version: "9" }).setToken("OTU5Njg3MjM3NzIzODg1NTgw.YkfgYw.Sx8Nv-D1Ig9rlHv2DKttCNgJWGU")
 
         try {
             await rest.put(
